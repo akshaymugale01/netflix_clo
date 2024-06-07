@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000
 
 // Specify allowed origins
 app.use(cors({
-  origin: ['http://localhost:3000',],
+  origin: ['http://localhost:3000','https://netflix-clo-eta.vercel.app/login'],
 }));
 
 app.use(express.json());
